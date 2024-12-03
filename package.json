@@ -1,0 +1,30 @@
+{
+  "name": "adventofcode-2024-node",
+  "version": "1.0.0",
+  "description": "Advent of code 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizyma/adventofcode-2024-node.git"
+  },
+  "keywords": [
+    "AdventOfCode",
+    "Typescript",
+    "Node"
+  ],
+  "author": "Andre Gomes <andre-gomes@live.fr>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Wizyma/adventofcode-2024-node/issues"
+  },
+  "homepage": "https://github.com/Wizyma/adventofcode-2024-node#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "22.10.1",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2"
+  }
+}
