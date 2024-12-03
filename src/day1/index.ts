@@ -1,5 +1,5 @@
-import { readFileSync } from "fs";
-import path from "path";
+import { readFileSync } from "node:fs";
+import path from "node:path";
 
 const input = readFileSync(path.resolve(__dirname, "input.txt"), "utf-8");
 
@@ -26,7 +26,7 @@ function result(groups: number[][]) {
   let similarity = 0
   for(let i = 0; i < groupsLength; i++) {
     if(groups[0][i] !== groups[1][i]) {
-      diff += Math.abs(groups[0][i] - groups[1][i]), groups[0][i], groups[1][i]
+      diff += Math.abs(groups[0][i] - groups[1][i]);
     }
 
     similarity += groups[1][i] * groups[0].filter(group => group === groups[1][i]).length
