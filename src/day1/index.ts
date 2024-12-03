@@ -12,7 +12,7 @@ const groups = lines.reduce((acc, line) => {
     [...acc[0].concat(group1)],
     [...acc[1].concat(group2)]
   ]
-}, [[], []]);
+}, [[], []] as number[][]);
 
 
 const sortedGroups = groups.map(group => group.sort((a, b) => a - b));
